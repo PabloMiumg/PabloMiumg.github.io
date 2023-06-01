@@ -1,0 +1,40 @@
+.dropdown {position: relative;
+  display: inline-block; 
+  }
+
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    font-size: 150%;
+    background-color: white;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+body{
+    background-color: rgb(19, 19, 108);
+}
+body p{
+    color:#fff
+}    
+body li{
+    color: #fff;
+}
+.titulop1{
+    font-size: xx-large;
+    background-color: rgb(124, 5, 50);
+    color: white;
+}
+body h2{
+    color: rgb(152, 7, 65);
+}
+
+.h1{color:rgb(152, 7, 65);
+}

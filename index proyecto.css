@@ -1,0 +1,60 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  
+
+  .dropdown-content {
+    display: none;
+      position: absolute;
+      min-width: 160px;
+      width: 150px;
+      z-index: 1;
+      font-size: 150%;
+      background-color: white;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  h2{
+    text-align: center;
+}
+body{
+    background-image: url(./images/umg.png);
+    color: beige;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color: #FFFFFF;
+}
+footer{
+    background-color: rgb(8, 8, 173);
+}
+
+
+.titulop1{color: crimson;
+font-size: 50px;}
+
+.titulo{color: crimson;
+font-size: 100px;
+}
+
+.parrafop1{color: black;
+font-size: 20px;}
+
+.datosp1{color: black;
+font-size: 30px;}
+
+
+.datosG1{color: red;
+font-size: 40px;}
+
+.logo{color: red;
+font-size: 25px;
+background-color: white;}
+.Content{color: black;
+font-size: 40px;}
+

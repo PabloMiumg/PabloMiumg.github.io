@@ -1,0 +1,117 @@
+h2{
+    background-color: rgb(216, 10, 65);
+    text-align: center;
+}
+body{
+    background-image: url(./images/logo.jpg);
+    color: beige;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #f2e6e6;
+}
+footer{
+    background-color: rgb(8, 8, 173);
+}
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: rosybrown;
+}
+nav{
+    background: rgb(18, 9, 28);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;  
+}
+.nav-boton{
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: flex;
+    
+}
+@media (max-width: 600px){
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+  }
+  
+  .sidebar li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+  #toggleBtn {
+    display: none;
+  }
+  
+  .toggle-label {
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #menu {
+    display: none;
+  }
+  
+  #toggleBtn:checked ~ #menu {
+    display: block;
+  }
+.Incio {
+     text-align: left;
+
+}
+.titulop1{
+    background-color: rgb(133, 13, 13);
+    
+}
+
+
+
+
+
+  

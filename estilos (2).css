@@ -1,0 +1,55 @@
+h2{
+    text-align: center;
+}
+body{
+    background-image: url(./image/uni.jpg);
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000000;
+}
+
+
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: #000000;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: rosybrown;
+}
+nav{
+    background: rgb(18, 9, 28);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;  
+}
+.nav-boton{
+    background-color: salmon;
+    color: #ffffff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: flex;
+    
+}
+@media (max-width: 600px){
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+    .texto{
+        color: black;
+    }
+}
